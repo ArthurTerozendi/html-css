@@ -1,0 +1,53 @@
+h1 {
+    color: #120A8F;
+}
+
+h2 {
+    color: #007fff;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: Verdana;
+}
+
+p{
+    font-family: Arial;
+    color: gray;
+    line-height: 2;
+}
+
+em {
+    color: #007fff;
+    font-style: italic;
+}
+
+strong {
+    color: black;
+    background-color: red;
+}
+
+#p1, #p4, #p7 {
+    text-align: right;
+}
+
+#p2, #p5 {
+    text-align: center;
+}
+
+#p3, #p6 {
+    text-align: left;
+}
+
+.erro_gramatical {
+    text-decoration: underline wavy green;
+}
+
+.erro_ortografico {
+    text-decoration: underline wavy red;
+}
+
+#rodape {
+    text-align: center;
+    letter-spacing: 10px;
+}
