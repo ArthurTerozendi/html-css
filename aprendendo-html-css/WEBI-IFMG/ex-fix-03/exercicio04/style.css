@@ -1,0 +1,8 @@
+#imagem {
+    width: 60%;
+    height: calc(60vh);
+    filter: grayscale(100%);
+}
+#imagem:hover {
+    filter: grayscale(0%);
+}
