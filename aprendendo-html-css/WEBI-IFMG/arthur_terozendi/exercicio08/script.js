@@ -8,8 +8,7 @@ function calcular() {
     else if (num > 10 || num < 1) {
         window.alert("Por favor digite um número entre 1 e 10");
     } 
-    else {
-        document.getElementById("aviso").style.visibility = "hidden"   
+    else {  
         sel.innerHTML = "";
         for ( var i = 1; i <= 10; i++) {
             tabuada = Number(num) * i;
