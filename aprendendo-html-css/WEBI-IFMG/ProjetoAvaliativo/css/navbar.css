@@ -1,0 +1,30 @@
+nav {
+    background-color: #000000ce;
+}
+nav ul a {
+    color: #892cdc;
+}
+nav ul a:hover {
+    background-color: #00000031;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #bc6ff1;
+}
+
+@media only screen and (max-width: 370px){
+    nav ul a{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav a img {
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 600px){
+    nav a img {
+        height: 60px;
+    }
+}

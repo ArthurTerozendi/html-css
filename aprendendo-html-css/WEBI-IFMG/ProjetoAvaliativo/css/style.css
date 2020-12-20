@@ -1,0 +1,29 @@
+@media only screen and (max-width: 574px){
+    .div-principal{ 
+        height: calc(100vh - 157px);
+    }
+}
+@media only screen and (min-width: 574px) and (max-width: 756px){
+    .div-principal{
+        height: calc(100vh - 125px);
+    }
+}
+@media only screen and (min-width: 756px){
+    .div-principal {
+        height: calc(100vh - 127px);
+    }
+}
+.div-principal{
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.carrossel {
+    text-align: center;
+    margin-top: 40px;
+}
+.carousel-control-next {
+    right: 40px;
+}
+.carousel-control-prev {
+    left: 20px;
+}

@@ -1,0 +1,30 @@
+.fa {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #892cdc;
+}
+
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    background-color: #52057b86;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: -30px;
+}
+.footer-icon a {
+    text-decoration: none;
+}
+.footer-icon a:hover {
+    color: #bc6ff1;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: #000000ce;
+}
