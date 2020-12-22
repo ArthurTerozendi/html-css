@@ -1,0 +1,38 @@
+.carrossel {
+    text-align: center;
+    margin-top: 40px;
+}
+.carousel-control-next {
+    right: 40px;
+}
+.carousel-control-prev {
+    left: 20px;
+}
+
+.material-icons {
+    background-color: #3a3939;
+    width: 100px;
+    height: 100px;
+    box-shadow: #2c2c2c 3px 3px 3px;
+    border-radius: 50%;
+    color: #52057b;
+}
+
+.material-icons:hover{
+    cursor: pointer;
+    background-color: #5c5b5b;
+    color: #892cdc;
+    border: 1px solid #2c2c2c;
+}
+
+.link{
+    text-align: center;
+}
+
+.div-titulo {
+    color:#52057b;
+    cursor: pointer;
+}
+.div-titulo:hover {
+    color: #892cdc;
+}

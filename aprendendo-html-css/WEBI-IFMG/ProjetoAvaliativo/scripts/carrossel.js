@@ -1,4 +1,4 @@
-var img = ['imgCarrossel.png', 'imgCarrossel2.png', 'imgCarrossel3.png']
+var img = ['banner_1.png', 'banner_2.png', 'banner_3.png']
 var imgCarrosselAtual = 0;
 function girarCarrosselPrev() {
     if (imgCarrosselAtual == 0) {
@@ -8,6 +8,7 @@ function girarCarrosselPrev() {
     }
     document.getElementById("carrossel").src = `img/${img[imgCarrosselAtual]}`
 }
+
 function girarCarrosselNext() {
     if (imgCarrosselAtual == 2) {
         imgCarrosselAtual = 0;

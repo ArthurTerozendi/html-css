@@ -1,0 +1,12 @@
+.grade-img img{
+    width: 100%;
+    filter: grayscale(100%);
+    margin-bottom: 10px;
+}
+body {
+    text-align: justify;
+    color: #cfcfcf;
+}
+body div{
+    font-size: 12pt;
+}

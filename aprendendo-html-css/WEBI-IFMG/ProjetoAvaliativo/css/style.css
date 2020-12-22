@@ -16,14 +16,3 @@
 .div-principal{
     background-color: rgba(0, 0, 0, 0.74);
 }
-
-.carrossel {
-    text-align: center;
-    margin-top: 40px;
-}
-.carousel-control-next {
-    right: 40px;
-}
-.carousel-control-prev {
-    left: 20px;
-}
