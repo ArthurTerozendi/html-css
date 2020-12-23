@@ -1,75 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    
+    <link rel="stylesheet" href="../css/method.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/school.css">
 
-    <title> Escola | Sentinela DigiArtes </title>
+    <title> Método | Sentinela DigiArtes </title>
 </head>
-
 <body>
     <nav>
         <div class="nav-wrapper" style="margin-left: 10px;">
             <a href="../index.html"> <img src="../img/logo.png"> </a>
             <ul id="nav-mobile" class="right hide-on-down">
-                <li><a href="#">Escola</a></li>
+                <li><a href="escola.html">Escola</a></li>
                 <li><a href="equipe.html">Equipe</a></li>
-                <li><a href="metodo.html">Método</a></li>
+                <li><a href="#">Método</a></li>
                 <li><a href="contatos.html">Contanto</a></li>
             </ul>
         </div>
     </nav>
 
-
+    
     <div class="div-principal overflow-auto">
         <div class="container">
-            <h3 style="color: #892cdc;"> A Escola </h3>
-            <div class="col-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem obcaecati, mollitia inventore
-                necessitatibus nihil fuga officiis nemo facilis asperiores architecto? Dolore eius blanditiis quasi amet
-                quia porro neque dicta.
-            </div>
+            <h3 style="color: #892cdc;"> Método </h3>
         </div>
-        <div class="row grade-img" style="margin-top: 50px;">
-            <div class="col-sm" onmouseover="mudarFiltro('img1')" onmouseout="aplicarGrayScale('img1')">
-                <img id="img1" onclick="zoomModal('img1')" src="../img/banner_1.png">
+        <div class="container">
+            <div class="video ">
+                <iframe src="https://www.youtube.com/embed/cmZexKrJxn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-sm" onclick="zoomModal('img2')" onmouseover="mudarFiltro('img2')" onmouseout="aplicarGrayScale('img2')">
-                <img id="img2" src="../img/banner_2.png">
-            </div>
-            <div class="col-sm" onclick="zoomModal('img3')" onmouseover="mudarFiltro('img3')" onmouseout="aplicarGrayScale('img3')">
-                <img id="img3" src="../img/banner_3.png">
-            </div>
-        </div>
+            <div class="paragrafos">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores corporis deserunt culpa nobis. Facilis soluta modi veritatis vero alias distinctio, harum eos, consectetur, laudantium nemo tempora praesentium eaque quae excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, est exercitationem minima quo deleniti illum. Quasi temporibus ad error dolorum quibusdam inventore explicabo dolor odit a, qui cumque quae.</p>
 
-        <div id="myModal" class="modal" style="height: calc(100vh - 60px);" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam? Quaerat, nam necessitatibus doloremque, nulla porro Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet esse nostrum dicta voluptatem eveniet laudantium laborum voluptas quam totam similique, ad nesciunt tenetur iusto? Atque fuga odit amet at consequuntur! ullam dolorem iste at velit est non aliquam eius, magnam perferendis assumenda sapiente facere.</p>
 
-            <div class="modal-content">
-                <img id="imgModal" src="">
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque impedit nemo repellat.
-            </div>
-            <div class="col-sm">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quam quas in.
-            </div>
-            <div class="col-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, doloribus impedit. Facere!
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum magni ullam non asperiores est obcaecati explicabo quod quibusdam, numquam debitis neque officiis ipsam, laboriosam magnam ipsum deleniti nulla dolore voluptas? Dolorem natus quaerat ratione at officiis, perferendis quam praesentium incidunt nisi quis excepturi voluptatem aliquid et iure neque sint? Saepe, rerum voluptate.</p>
             </div>
         </div>
     </div>
@@ -101,8 +74,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="../scripts/escola.js"></script>
+    
 </body>
-
 </html>

@@ -1,0 +1,13 @@
+.professores img{
+    width: 100%;
+    height: 100%;
+}
+.professores {
+    text-align: justify;
+    color: #aaa;
+}
+
+.professores h4{
+    color: #52057b;
+    margin-top: -5px;
+}
